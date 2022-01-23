@@ -6,3 +6,6 @@ https://stackoverflow.com/questions/36757965/how-to-have-multiple-conditions-for
 ^^ Multiple conditions for an IF statement. This is used when getting values from entries (get())
 
 ----------
+
+https://docs.python.org/3/library/tkinter.messagebox.html
+^^ This link is used for displaying a messagebox, the IF statement will validate all the entries, if any fields are empty, messagebox will appear.
