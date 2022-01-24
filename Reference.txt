@@ -15,6 +15,7 @@ https://docs.python.org/3/library/tkinter.messagebox.html
 https://pip.pypa.io/en/stable/installation/
 ^^ pip installation link, incase you struggle to follow my guidelines
 
+----------
 
 https://www.webfx.com/tools/emoji-cheat-sheet/
-^^ Link for emojis to use for GitHub :horse_racing:
+^^ Link for emojis to use for GitHub
