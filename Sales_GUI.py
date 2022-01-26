@@ -159,6 +159,23 @@ def submit_sale():
         # If one or more entries are left empty
         messagebox.showerror(title="Missing Entries", message="Please fill in all entries")
         
+        
+def clear_sale():
+    # This function will clear all entries
+    regE.delete(0, "end")
+    mlgE.delete(0, "end")
+    makeE.delete(0, "end")
+    modelE.delete(0, "end")
+    engE.delete(0, "end")
+    nameE.delete(0, "end")
+    addrE.delete(0, "end")
+    postE.delete(0, "end")
+    phoneE.delete(0, "end")
+    emailE.delete(0, "end")
+    costE.delete(0, "end")
+    warrE.delete(0, "end")
+    additE.delete(0, "end")
+    
     
 '''
 Left Frame Details -----------------------
@@ -294,14 +311,17 @@ bottomF.place(x=15, y=415)
 btn1 = Button(bottomF, width=18, height=2, text="Submit Sale", bg="grey90", command=submit_sale)
 btn1.place(x=0, y=10)
 
-btn2 = Button(bottomF, width=18, height=2, text="", bg="grey90")
+btn2 = Button(bottomF, width=18, height=2, text="Clear Sale", bg="grey90", command=clear_sale)
 btn2.place(x=160, y=10)
 
+'''
 btn3 = Button(bottomF, width=18, height=2, text="", bg="grey90")
 btn3.place(x=320, y=10)
 
 btn4 = Button(bottomF, width=18, height=2, text="", bg="grey90")
 btn4.place(x=480, y=10)
+
+'''
 
 '''
 window configs -----------------------
